@@ -21,3 +21,16 @@ The pyramid is made of metal, using my exclusive patent, vacuum multi-layer meta
 As a parking lot for autonomous vehicle, the inner space of the pyramid can park our robot RV, provide a comfortable dynamic lifestyle, and serve as a supply point all over the world.
 
 ####Therefore, this design is a perfect wind resistant, earthquake resistant structure, and an extreme doomsday design. This design will change the existing building structure and alter the future living and transportation mode.
+
+#Quick living room
+![]( https://yougonglin.github.io/The-official-website-of-Apocalypse-Mountain-Forest-Enterprise/website/atlas/bingjiefang.jpg )
+###The size of the folding room is fixed, but the DIV performance is insufficient
+Compared to Musk's folding house, this design allows for more flexible customization through assembly, creating more complex shapes.
+###The manufacturing cost is not significantly different
+Pre made assembly boards have extremely low requirements for construction, do not require welding, and have a very fast production speed.
+###Security
+Multi level beams and columns can quickly build multi story building structures, using thicker square steel, with very strong seismic and compressive resistance
+###Excellent living comfort
+The unique cubic column structure and stainless steel inner layer metal can effectively provide sound and heat insulation. When jumping on the upper level, the volume below is extremely low.
+#Maritime Technology City, a Utopia Without Politics
+![]( https://yougonglin.github.io/The-official-website-of-Apocalypse-Mountain-Forest-Enterprise/website/atlas/haishangbaolei.png )
