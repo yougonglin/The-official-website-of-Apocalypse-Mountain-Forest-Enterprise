@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Minimal | Bootstrap portfolio template</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="robots" content="all,follow">
+    <!-- gLightbox CSS-->
+    <link rel="stylesheet" href="vendor/glightbox/css/glightbox.min.css">
+    <!-- theme stylesheet-->
+    <link rel="stylesheet" href="css/style.default.css" id="theme-stylesheet">
+    <!-- Custom stylesheet - for your changes-->
+    <link rel="stylesheet" href="css/custom.css">
+    <!-- Favicon-->
+    <link rel="shortcut icon" href="img/favicon.png">
+  </head>
+  <body>
+    <div class="sidebar">
+      <div class="sidebar-inner d-flex flex-column">
+		<div class="px-4 py-5"><a href="index.html"><img src="img/logo.png" style="width: 256px;height:128px;border-radius: 12px;"></a></div>
+        <div class="sidebar-menu-holder flex-grow-1">
+          <ul class="sidebar-menu list-unstyled">
+            <li class="mb-2 pb-1">
+              <!-- Link--><a class="sidebar-link h6 text-uppercase letter-spacing-2 fw-bold text-sm active" href="index.html">电影视角</a>
+            </li>
+			<li class="mb-2 pb-1">
+				<a class="sidebar-link h6 text-uppercase letter-spacing-2 fw-bold text-sm" href="detail.html">需求大厅</a>
+			</li>
+            <li class="mb-2 pb-1">
+				<a class="sidebar-link h6 text-uppercase letter-spacing-2 fw-bold text-sm" href="https://github.com/yougonglin/The-official-website-of-Apocalypse-Mountain-Forest-Enterprise">产品介绍</a>
+            </li>
+           <li class="mb-2 pb-1">
+              <a class="sidebar-link h6 text-uppercase letter-spacing-2 fw-bold text-sm" href="text.html">投资/招聘</a>
+            </li>
+			<li class="mb-4 pb-1">
+				<a class="sidebar-link h6 text-uppercase letter-spacing-2 fw-bold text-sm" href="detail.html">人生记录</a>
+			</li>
+          </ul>
+		  <div class="px-4"><a href="index.html"><img src="atlas/jieshaoshiping.gif" style="width: 256px;height: 256px;border-radius: 12px;"></a></div>
+        </div>
+      </div>
+    </div>
+    <div class="page-holder">
+      <div class="px-4 d-block d-lg-none">
+        <!-- navbar-->
+        <header class="header">
+          <nav class="navbar navbar-expand-lg navbar-light px-0">
+            <button class="navbar-toggler navbar-toggler-end text-sm text-uppercase" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <svg class="svg-icon svg-icon-heavy svg-icon-sm text-dark">
+                <use xlink:href="#menu-hamburger-1"> </use>
+              </svg>
+            </button><a class="navbar-brand" href="index.html"><img src="atlas/Dingtalk_20250711053027.jpg" style="width: 50px;height: 50px;"></a>
+          </nav>
+        </header>
+      </div>
+      <div class="px-4 py-5">
+        <div class="container-fluid">
+          
+        </div>
+      </div>
+    </div>
+    <!-- JavaScript files-->
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="vendor/masonry-layout/masonry.pkgd.min.js"></script>
+    <script src="vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+    <script src="vendor/glightbox/js/glightbox.min.js"></script>
+    <script src="js/front.js"></script>
+    <script>
+      // ------------------------------------------------------- //
+      //   Inject SVG Sprite - 
+      //   see more here 
+      //   https://css-tricks.com/ajaxing-svg-sprite/
+      // ------------------------------------------------------ //
+      function injectSvgSprite(path) {
+      
+          var ajax = new XMLHttpRequest();
+          ajax.open("GET", path, true);
+          ajax.send();
+          ajax.onload = function(e) {
+          var div = document.createElement("div");
+          div.className = 'd-none';
+          div.innerHTML = ajax.responseText;
+          document.body.insertBefore(div, document.body.childNodes[0]);
+          }
+      }
+      // this is set to BootstrapTemple website as you cannot 
+      // inject local SVG sprite (using only 'icons/orion-svg-sprite.svg' path)
+      // while using file:// protocol
+      // pls don't forget to change to your domain :)
+      injectSvgSprite('icons/orion-svg-sprite.svg'); 
+      
+    </script>
+  </body>
+</html>
