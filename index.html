@@ -2,25 +2,10 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Minimal | Bootstrap portfolio template</title>
+    <title>高端商业交流酒吧 - Hight Value 98</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="robots" content="all,follow">
-	<script>
-		// 检测浏览器语言设置
-		const isChineseLang = navigator.language === 'zh-CN' || 
-							 navigator.language === 'zh' || 
-							 navigator.languages.includes('zh-CN');
-		
-		// 检测时区（中国标准时区UTC+8）
-		const chinaTimezone = /UTC\+08:00|Asia\/Shanghai/;
-		const isChinaTimezone = chinaTimezone.test(new Date().toString());
-		
-		// 如果语言或时区符合中国大陆特征
-		if (isChineseLang || isChinaTimezone) {
-			window.location.href = 'https://www.jiechurenlei.com/'; // 替换为目标URL
-		}
-	</script>
     <!-- gLightbox CSS-->
     <link rel="stylesheet" href="vendor/glightbox/css/glightbox.min.css">
     <!-- theme stylesheet-->
@@ -28,35 +13,14 @@
     <!-- Custom stylesheet - for your changes-->
     <link rel="stylesheet" href="css/custom.css">
     <!-- Favicon-->
-    <link rel="shortcut icon" href="img/favicon.png">
+    <link rel="shortcut icon" href="img/logo3.png">
+	<script src="js/redirect.js"></script>
+	<script src="https://cdn.staticfile.net/translate.js/3.16.0/translate.js"></script>
+	<style>.active1{color: #ef5285;}</style>
   </head>
   <body>
-    <div class="sidebar">
-      <div class="sidebar-inner d-flex flex-column">
-		<div class="px-4 py-5"><a href="index.html"><img src="img/logo3.png" style="width: 256px;height:128px;border-radius: 12px;"></a></div>
-        <div class="sidebar-menu-holder flex-grow-1">
-          <ul class="sidebar-menu list-unstyled">
-            <li class="mb-2 pb-1">
-              <!-- Link--><a class="sidebar-link h6 text-uppercase letter-spacing-2 fw-bold text-sm active" href="index.html">电影视角</a>
-            </li>
-			<li class="mb-2 pb-1">
-				<a class="sidebar-link h6 text-uppercase letter-spacing-2 fw-bold text-sm" href="detail.html">需求大厅</a>
-			</li>
-            <li class="mb-2 pb-1">
-				<a class="sidebar-link h6 text-uppercase letter-spacing-2 fw-bold text-sm" href="https://github.com/yougonglin/The-official-website-of-Apocalypse-Mountain-Forest-Enterprise">产品介绍</a>
-            </li>
-           <li class="mb-2 pb-1">
-              <a class="sidebar-link h6 text-uppercase letter-spacing-2 fw-bold text-sm" href="text.html">投资/招聘</a>
-            </li>
-			<li class="mb-4 pb-1">
-				<a class="sidebar-link h6 text-uppercase letter-spacing-2 fw-bold text-sm" href="detail.html">人生记录</a>
-			</li>
-          </ul>
-		  <div class="px-4"><a href="index.html"><img src="atlas/jieshaoshiping.gif" style="width: 256px;height: 256px;border-radius: 12px;"></a></div>
-        </div>
-      </div>
-    </div>
-    <div class="page-holder">
+    <div class="sidebar" id="header"></div>
+    <div class="page-holder" id="foot">
       <div class="px-4 d-block d-lg-none">
         <!-- navbar-->
         <header class="header">
@@ -238,6 +202,7 @@
         </div>
       </div>
     </div>
+	<script src="js/common.js"></script>
     <!-- JavaScript files-->
     <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
     <script src="vendor/masonry-layout/masonry.pkgd.min.js"></script>
