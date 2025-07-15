@@ -1,7 +1,8 @@
 const Common = {
 	header : `<div class="sidebar-inner d-flex flex-column">
     	<div class="px-4 py-5"><a href="index.html"><img src="img/logo3.png" style="width: 256px;height:128px;border-radius: 12px;"></a></div>
-        <div class="sidebar-menu-holder flex-grow-1">
+		<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=298 height=52 src="//music.163.com/outchain/player?type=0&id=13970710012&auto=1&height=32"></iframe>
+		<div class="sidebar-menu-holder flex-grow-1">
           <ul class="sidebar-menu list-unstyled">
             <li class="mb-2 pb-1">
               <!-- Link--><a class="sidebar-link h6 text-uppercase letter-spacing-2 fw-bold text-sm active1" href="index.html">电影视角</a>
