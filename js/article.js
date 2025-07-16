@@ -2,10 +2,27 @@
 
 var Investment_Recruitment = [
 	{
-		title : "",
-		url : ""
+		title : "末世山林集团业务范围",
+		url : "/article.html?Investment_Recruitment/末世山林集团业务范围.md"
+	},
+	{
+		title : "时间堡垒科技公司业务范围",
+		url : "/article.html?Investment_Recruitment/时间堡垒科技公司业务范围.md"
+	},
+	{
+		title : "永夜星辰网络科技有限公司业务范围",
+		url : "/article.html?Investment_Recruitment/永夜星辰网络科技有限公司业务范围.md"
+	},
+	{
+		title : "小额投资者通用投资方案",
+		url : "/article.html?Investment_Recruitment/小额投资者通用投资方案.md"
 	}
 ];
+
+var Investment_Recruitment_List = '';
+for (var i = 0; i < Investment_Recruitment.length; i++) {
+	Investment_Recruitment_List = Investment_Recruitment_List + `<li class="list-inline-item my-2"><a target="_blank" href="${Investment_Recruitment[i]['url']}">${Investment_Recruitment[i]['title']}</a></li>`;
+}
 
 var Life_Record = [
 	{
@@ -25,6 +42,10 @@ var Life_Record = [
 		url : "/article.html?Life_Record/自从遇到狗东西以后我的人生就没消停过.md"
 	},
 	{
+		title : "一个域名差点把我害死",
+		url : "/article.html?Life_Record/一个域名差点把我害死.md"
+	},
+	{
 		title : "请有关部门处理一下这件破事",
 		url : "/article.html?Life_Record/请有关部门处理一下这件破事.md"
 	}
@@ -36,12 +57,23 @@ for (var i = 0; i < Life_Record.length; i++) {
 
 var Product_Documentation = [
 	{
-		title : "",
-		url : ""
+		title : "时间堡垒机器人",
+		url : "/article.html?Product_Documentation/时间堡垒机器人.md"
+	},
+	{
+		title : "机器人智能化配套设备实现流程规范标准化",
+		url : "/article.html?Product_Documentation/机器人智能化配套设备实现流程规范标准化.md"
+	},
+	{
+		title : "未来架构师林星言为您架构的未来城",
+		url : "/article.html?Product_Documentation/未来架构师林星言为您架构的未来城.md"
 	}
 ];
 
-
+var Product_Documentation_List = '';
+for (var i = 0; i < Product_Documentation.length; i++) {
+	Product_Documentation_List = Product_Documentation_List + `<li class="list-inline-item my-2"><a target="_blank" href="${Product_Documentation[i]['url']}">${Product_Documentation[i]['title']}</a></li>`;
+}
 
 var introductionText = `<div class="p-4 mb-5 bg-light">
 	<div class="row gy-3">
@@ -59,12 +91,12 @@ var introductionText = `<div class="p-4 mb-5 bg-light">
 				  <use xlink:href="#survey-1"> </use>
 				</svg><span href="#foot" class="align-middle">联系方式</span></a>
 			</li>
-			<li class="list-inline-item my-2"><a target="_blank" class="btn btn-primary rounded-pill" href="#!">
+			<li class="list-inline-item my-2"><a target="_blank" class="btn btn-primary rounded-pill" href="/article.html?Investment_Recruitment/小额投资者通用投资方案.md">
 				<svg class="svg-icon me-2 align-middle svg-icon-sm">
 				  <use xlink:href="#survey-1"> </use>
 				</svg><span class="align-middle">长期投资</span></a>
 			</li>
-			<li class="list-inline-item my-2"><a target="_blank" class="btn btn-primary rounded-pill" href="https://github.com/yougonglin/The-official-website-of-Apocalypse-Mountain-Forest-Enterprise/discussions">
+			<li class="list-inline-item my-2"><a target="_blank" class="btn btn-primary rounded-pill" href="https://github.com/yougonglin/The-official-website-of-Apocalypse-Mountain-Forest-Enterprise/discussions/categories/q-a">
 				<svg class="svg-icon me-2 align-middle svg-icon-sm">
 				  <use xlink:href="#survey-1"> </use>
 				</svg><span class="align-middle">问题咨询</span></a>
@@ -77,7 +109,7 @@ var introductionText = `<div class="p-4 mb-5 bg-light">
 			<li class="list-inline-item my-2"><a target="_blank" class="btn btn-primary rounded-pill" href="https://t.me/+ayJmQnUi1kowYTNl">
 				<svg class="svg-icon me-2 align-middle svg-icon-sm">
 				  <use xlink:href="#survey-1"> </use>
-				</svg><span class="align-middle">全职/兼职</span></a>
+				</svg><span class="align-middle">找管理员</span></a>
 			</li>
 			<li class="list-inline-item my-2"><a target="_blank" class="btn btn-primary rounded-pill" href="https://github.com/yougonglin/The-official-website-of-Apocalypse-Mountain-Forest-Enterprise/milestone/1">
 				<svg class="svg-icon me-2 align-middle svg-icon-sm">
@@ -89,8 +121,8 @@ var introductionText = `<div class="p-4 mb-5 bg-light">
 	</div>
   </div>
 	<div class="px-lg-5">
-		<h2 class="h1">人已疯，精神病精神出轨可以要求分割婚后财产吗</h2>
-		<p class="text-muted mb-4">本人大脑数据被窃取10年以上，从未参与过任何脑计划以及使用过卫星量子脑机接口，脑联网中发生的任何事情一概不知，请勿相信，也不承认，所有项目的交流与交易仅在本平台，可本人实地当面认证。我和那些卖黄片，胁迫未成年卖淫，非法赌博，垃圾游戏，传销诈骗，杀猪（情绪化投资）盘，老鼠（窃取商业机密）仓，抄袭盗版，网络暴力，教唆犯罪，冒用身份，装腔作势，造谣生事，整天嬉皮笑脸我们我们，几十张烂嘴胡说八道拖人下水恶心人的没有任何关系，我只想让他们滚蛋。猪狗不如的东西还道德谴责我，整件事情就它们搅和起来的。是个人就能干的低端产业，还学我申请专利，一起报警把他们枪毙了吧。尤其关注话越多，笑得越大声，越能装的。</p>
+		<h2 class="h1">本人已疯，精神病精神出轨可以要求分割婚后财产吗</h2>
+		<p class="text-muted mb-4">本人大脑数据被窃取10年以上，从未参与过任何脑计划以及使用过卫星量子脑机接口，脑联网中发生的任何事情一概不知，请勿相信，也不承认，所有项目的交流与交易仅在本平台，可本人实地当面认证。我和那些卖黄片，胁迫未成年卖淫，非法赌博，垃圾游戏，传销诈骗，杀猪（情绪化投资）盘，老鼠（窃取商业机密）仓，抄袭盗版，网络暴力，教唆犯罪，冒用身份，装腔作势，造谣生事，整天嬉皮笑脸我们我们，几十张烂嘴胡说八道拖人下水恶心人的没有任何关系，我只想让他们滚蛋。猪狗不如的东西还道德谴责我，整件事情就它们搅和起来的。是个人就能干的低端产业，还学我申请专利，一起报警把他们枪毙了吧。尤其关注话越多，笑得越大声，越能装模做样的。</p>
 	</div>
 	<div class="px-lg-5">
 		<ul class="list-inline mb-0" id="list"></ul>
