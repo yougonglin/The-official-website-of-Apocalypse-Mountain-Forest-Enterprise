@@ -57,6 +57,10 @@ for (var i = 0; i < Life_Record.length; i++) {
 
 var Product_Documentation = [
 	{
+		title : "历史性的里程碑",
+		url : "/article.html?Product_Documentation/历史性的里程碑.md"
+	},
+	{
 		title : "时间堡垒机器人",
 		url : "/article.html?Product_Documentation/时间堡垒机器人.md"
 	},
@@ -81,7 +85,7 @@ var introductionText = `<div class="p-4 mb-5 bg-light">
 		<h1 class="fw-normal">你好我叫 <strong>林星言</strong>. </h1>
 		<h2 class="h1 fw-normal mb-4">我是<strong>未来架构师</strong>为发明家提供研发线路</h2>
 		<p class="text-muted mb-4">2025年机器人元年，随着人工智能，轻量化机械臂，飞行汽车，自动驾驶等技术的成熟。我作为先驱，架构了未来汽车休息室，面向末日的未来停车场与住房设计，化学设备全面智能化，静态工作场景的机器人设计方案如：菜品研发机器人，机器人医疗护理休眠室，化妆美容等基础功能</p>
-		<p class="text-muted mb-4">全球第一，随着时间的推移具有  <a href="https://dribbble.com/juliahanke">里程碑</a> 的意义。像这样的东西我还有一百个，不过暂时就先这样吧。</p>
+		<p class="text-muted mb-4">全球第一，随着时间的推移具有  <a target="_blank" href="/article.html?Product_Documentation/历史性的里程碑.md">里程碑</a> 的意义。像这样的东西我还有一百个，不过暂时就先这样吧。</p>
 	  </div>
 	  <div class="col-sm-3"><img class="img-fluid img-thumbnail rounded-circle" src="img/about-profile.jpg" alt="Jason Doe"></div>
 	  <div class="col-sm-12">
@@ -106,10 +110,10 @@ var introductionText = `<div class="p-4 mb-5 bg-light">
 				  <use xlink:href="#survey-1"> </use>
 				</svg><span class="align-middle">价值交流</span></a>
 			</li>
-			<li class="list-inline-item my-2"><a target="_blank" class="btn btn-primary rounded-pill" href="https://t.me/+ayJmQnUi1kowYTNl">
+			<li class="list-inline-item my-2"><a target="_blank" class="btn btn-primary rounded-pill" href="https://shop.jiechurenlei.com/">
 				<svg class="svg-icon me-2 align-middle svg-icon-sm">
 				  <use xlink:href="#survey-1"> </use>
-				</svg><span class="align-middle">找管理员</span></a>
+				</svg><span class="align-middle">加盟销售</span></a>
 			</li>
 			<li class="list-inline-item my-2"><a target="_blank" class="btn btn-primary rounded-pill" href="https://github.com/yougonglin/The-official-website-of-Apocalypse-Mountain-Forest-Enterprise/milestone/1">
 				<svg class="svg-icon me-2 align-middle svg-icon-sm">
