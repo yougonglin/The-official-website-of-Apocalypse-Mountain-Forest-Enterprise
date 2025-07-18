@@ -44,17 +44,22 @@
 	</div>
 	<script src="js/marked.min.js"></script>
 	<script>
-		fetch(location.search.substring(1)).then(response => {
-		    if (!response.ok) {
-		      throw new Error('Network response was not ok');
+		async function fetchAndDisplayContent() {
+		    try {
+		        const response = await fetch(location.search.substring(1));
+		        if (!response.ok) {
+		            throw new Error('Network response was not ok');
+		        }
+		        const text = await response.text();
+		        console.log(text);
+		        document.getElementById('content').innerHTML = marked.parse(text);
+		    } catch (error) {
+		        console.error('Fetch error:', error);
 		    }
-		    return response.text(); // 解析为文本
-		}).then(text => {
-		    console.log(text); // 输出文件内容
-			document.getElementById('content').innerHTML = marked.parse(text);
-		}).catch(error => {
-			console.error('Fetch error:', error);
-		});
+		}
+		
+		// 调用函数
+		fetchAndDisplayContent();
 	</script>
 	<script src="js/common.js"></script>
     <!-- JavaScript files-->

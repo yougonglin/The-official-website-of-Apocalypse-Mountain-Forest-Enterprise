@@ -26,6 +26,10 @@ for (var i = 0; i < Investment_Recruitment.length; i++) {
 
 var Life_Record = [
 	{
+		title : "它们无法用法律制裁我，就用道德的武器打压我",
+		url : "/article.html?Life_Record/它们无法用法律制裁我，就用道德的武器打压我.md"
+	},
+	{
 		title : "对想要抄袭者的留言",
 		url : "/article.html?Life_Record/对想要抄袭者的留言.md"
 	},

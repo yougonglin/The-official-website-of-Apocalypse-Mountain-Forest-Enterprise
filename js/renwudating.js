@@ -3,7 +3,7 @@ const Task = [
 		ImgUrl : "img/portfolio-3.jpg",
 		ImgSrc : "img/portfolio-3.jpg",
 		Title : "企业代理人",
-		Content : "能告知我国脑计划的历史发展情况的，能提供10名卫星监视我的犯罪人信息和证据的",
+		Content : "能告知我国脑计划的历史发展情况的，能提供10名卫星监视我的犯罪人信息和证据的，来当我的帮手管理企业。",
 		CFC : "~CFC",
 		Money : "50000CFC",
 		Sales : "6人",
@@ -141,7 +141,7 @@ for (var i = 0; i < Task.length; i++) {
 		  </div>
 		  <h2 class="h3 mb-4">报名详情</h2>
 		  <ul class="list-inline">
-			<li class="list-inline-item"><a class="reset-anchor social-share-link facebook" target="_blank" href="${Documents}"><i class="fab me-2 fa-facebook-f"></i>相关文档</a></li>
+			<li style="margin-bottom: 12px;" class="list-inline-item"><a class="reset-anchor social-share-link facebook" target="_blank" href="${Documents}"><i class="fab me-2 fa-facebook-f"></i>相关文档</a></li>
 			<li class="list-inline-item"><a class="reset-anchor social-share-link twitter" target="_blank" href="${Activities}"><i class="fab me-2 fa-twitter"></i>活动介绍</a></li>
 			<li class="list-inline-item"><a class="reset-anchor social-share-link instagram" target="_blank" href="${Join}"><i class="fab me-2 fa-instagram"></i>参与活动</a></li>
 		  </ul>
