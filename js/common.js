@@ -93,10 +93,13 @@ h.innerHTML = Common.header;
 document.getElementById('header').appendChild(h)
 console.log(f.innerHTML)
 
-// 翻译文章
-var lg = translate.util.browserDefaultLanguage();
-console.log(lg)
-translate.service.use('client.edge');
-translate.changeLanguage(lg);
-translate.execute();
+//防止死循环
+if(!location.href.includes('article.html')){
+	// 翻译文章
+	var lg = translate.util.browserDefaultLanguage();
+	console.log(lg)
+	translate.service.use('client.edge');
+	translate.changeLanguage(lg);
+	translate.execute();
+}
 
