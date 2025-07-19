@@ -61,6 +61,10 @@ for (var i = 0; i < Life_Record.length; i++) {
 
 var Product_Documentation = [
 	{
+		title : "产品的组合变型式与实际商业应用",
+		url : "/article.html?Product_Documentation/产品的组合变型式与实际商业应用.md"
+	},
+	{
 		title : "末世质量值得信赖",
 		url : "/article.html?Product_Documentation/末世质量值得信赖.md"
 	},
