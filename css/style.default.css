@@ -10813,7 +10813,7 @@ body {
 
 .page-holder {
   width: calc(100% - $sidebar-width);
-  margin-left: 18rem;
+  margin-left: 20rem;
   min-height: 100vh;
   transition: all 0.3s linear;
 }
@@ -10827,9 +10827,10 @@ body {
 
 .page-holder.active {
   width: calc(100% - $sidebar-width);
-  margin-left: 18rem;
+  margin-left: 20rem;
 }
 
+#foot{padding-left: 28px;}
 /*
 *
 * ==========================================
@@ -10838,7 +10839,7 @@ body {
 *
 */
 .sidebar {
-  width: 18rem;
+  width: 20rem;
   height: 100vh;
   height: calc(var(--vh, 1vh) * 100);
   position: fixed;

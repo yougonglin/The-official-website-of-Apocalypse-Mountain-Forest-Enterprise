@@ -19,7 +19,7 @@
 	<script src="https://cdn.staticfile.net/translate.js/3.16.0/translate.js"></script>
   </head>
   <body>
-    <div class="sidebar" id="header"></div>
+    <div class="sidebar" id="header" style="height: 100%;"></div>
     <div class="page-holder" id="foot">
 		<div class="px-4">
 		  <!-- navbar-->
@@ -43,6 +43,7 @@
 	<script src="js/article.js"></script>
 	<script>
 		document.getElementById("list").innerHTML = Product_Documentation_List;
+		document.getElementById("note").innerHTML = `<h2 class="h1">${Note['cpdq']['title']}</h2><p class="text-muted mb-4">${Note['cpdq']['desc']}</p>`;
 	</script>
 	<script src="js/common.js"></script>
     <!-- JavaScript files-->

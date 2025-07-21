@@ -59,6 +59,7 @@ for (var i = 0; i < Life_Record.length; i++) {
 	Life_Record_List = Life_Record_List + `<li class="list-inline-item my-2"><a target="_blank" href="${Life_Record[i]['url']}">${Life_Record[i]['title']}</a></li>`;
 }
 
+/* 产品文档 */
 var Product_Documentation = [
 	{
 		title : "产品的组合变型式与实际商业应用",
@@ -91,13 +92,43 @@ for (var i = 0; i < Product_Documentation.length; i++) {
 	Product_Documentation_List = Product_Documentation_List + `<li class="list-inline-item my-2"><a target="_blank" href="${Product_Documentation[i]['url']}">${Product_Documentation[i]['title']}</a></li>`;
 }
 
+
+/* 电影视角 */
+var Cinematic_Camera = [
+	{
+		title : "1.序章.md",
+		url : "/article.html?Cinematic_Camera/1.序章.md"
+	}
+];
+
+var Cinematic_Camera_List = '';
+for (var i = 0; i < Cinematic_Camera.length; i++) {
+	Cinematic_Camera_List = Cinematic_Camera_List + `<li class="list-inline-item my-2"><a target="_blank" href="${Cinematic_Camera[i]['url']}">${Cinematic_Camera[i]['title']}</a></li>`;
+}
+
+var Note = {
+	cpdq : {
+		title : "本人已疯，精神病精神出轨可以要求分割婚后财产吗",
+		desc : "本人大脑数据被窃取10年以上，从未参与过任何脑计划以及使用过卫星量子脑机接口，脑联网中发生的任何事情一概不知，请勿相信，也不承认，所有项目的交流与交易仅在本平台，可本人实地当面认证。我和那些卖黄片，胁迫未成年卖淫，非法赌博，垃圾游戏，传销诈骗，杀猪（情绪化投资）盘，老鼠（窃取商业机密）仓，抄袭盗版，网络暴力，教唆犯罪，冒用身份，装腔作势，造谣生事，整天嬉皮笑脸我们我们，几十张烂嘴胡说八道拖人下水恶心人的没有任何关系，我只想让他们滚蛋。猪狗不如的东西还道德谴责我，整件事情就它们搅和起来的。是个人就能干的低端产业，还学我申请专利，一起报警把他们枪毙了吧。尤其关注话越多，笑得越大声，越能装模做样的。"
+	},
+	dysj : {
+		title : "小说名:高质量酒吧(hv98.com)",
+		desc : `作者被卫星量子脑机接口监视窃密，财力被耗尽，所有经验和技术都被对方盗取。高层蠢货明知读脑科技却又污蔑我精神病进行冷处理，给敌方建立了莫名其妙的保护伞机制。犯罪猖獗用作者脑数据进行犯罪，去胁迫未成年卖淫，集资诈骗，若是向恶势力低头，必将尊严，财富，名誉，肉体，精神皆失。
+相反，对手拥有大量女性资源，掌握着卖淫产业和中低端人脉。聚众挑拨客户，周围的人与自己受到神经调控，猝死威胁，使小说作者合作艰难。泄露作者商业数据进行笼络人心与金钱交易，抢先私自售卖我的专利产品到全球扰乱产品市场。这种情况下，无权无势，内忧外患，孤身一人，该如何逆风翻盘。`
+	},
+	rsjy : {
+		title : "本人已疯，精神病精神出轨可以要求分割婚后财产吗",
+		desc : "本人大脑数据被窃取10年以上，从未参与过任何脑计划以及使用过卫星量子脑机接口，脑联网中发生的任何事情一概不知，请勿相信，也不承认，所有项目的交流与交易仅在本平台，可本人实地当面认证。我和那些卖黄片，胁迫未成年卖淫，非法赌博，垃圾游戏，传销诈骗，杀猪（情绪化投资）盘，老鼠（窃取商业机密）仓，抄袭盗版，网络暴力，教唆犯罪，冒用身份，装腔作势，造谣生事，整天嬉皮笑脸我们我们，几十张烂嘴胡说八道拖人下水恶心人的没有任何关系，我只想让他们滚蛋。猪狗不如的东西还道德谴责我，整件事情就它们搅和起来的。是个人就能干的低端产业，还学我申请专利，一起报警把他们枪毙了吧。尤其关注话越多，笑得越大声，越能装模做样的。"
+	},
+}
+
 var introductionText = `<div class="p-4 mb-5 bg-light">
 	<div class="row gy-3">
 	  <div class="col-sm-9">
 		<h1 class="fw-normal">你好我叫 <strong>林星言</strong>. </h1>
 		<h2 class="h1 fw-normal mb-4">我是<strong>未来架构师</strong>为发明家提供研发线路</h2>
 		<p class="text-muted mb-4">2025年机器人元年，随着人工智能，轻量化机械臂，飞行汽车，自动驾驶等技术的成熟。我作为先驱，架构了未来汽车休息室，面向末日的未来停车场与住房设计，化学设备全面智能化，静态工作场景的机器人设计方案如：菜品研发机器人，机器人医疗护理休眠室，化妆美容等基础功能</p>
-		<p class="text-muted mb-4">全球第一，随着时间的推移具有  <a target="_blank" href="/article.html?Product_Documentation/历史性的里程碑.md">里程碑</a> 的意义。像这样的东西我还有一百个，不过暂时就先这样吧。</p>
+		<p class="text-muted mb-4">全球第一，随着时间的推移具有  <a target="_blank" href="/article.html?Product_Documentation/历史性的里程碑.md">里程碑</a> 的意义。产品分析师了解市场需求，发明家发明革命性产品，设计师优化产品。而我全能架构掌控未来，像这样的东西我还有一百个。</p>
 	  </div>
 	  <div class="col-sm-3"><img class="img-fluid img-thumbnail rounded-circle" src="img/about-profile.jpg" alt="Jason Doe"></div>
 	  <div class="col-sm-12">
@@ -136,10 +167,7 @@ var introductionText = `<div class="p-4 mb-5 bg-light">
 	  </div>
 	</div>
   </div>
-	<div class="px-lg-5">
-		<h2 class="h1">本人已疯，精神病精神出轨可以要求分割婚后财产吗</h2>
-		<p class="text-muted mb-4">本人大脑数据被窃取10年以上，从未参与过任何脑计划以及使用过卫星量子脑机接口，脑联网中发生的任何事情一概不知，请勿相信，也不承认，所有项目的交流与交易仅在本平台，可本人实地当面认证。我和那些卖黄片，胁迫未成年卖淫，非法赌博，垃圾游戏，传销诈骗，杀猪（情绪化投资）盘，老鼠（窃取商业机密）仓，抄袭盗版，网络暴力，教唆犯罪，冒用身份，装腔作势，造谣生事，整天嬉皮笑脸我们我们，几十张烂嘴胡说八道拖人下水恶心人的没有任何关系，我只想让他们滚蛋。猪狗不如的东西还道德谴责我，整件事情就它们搅和起来的。是个人就能干的低端产业，还学我申请专利，一起报警把他们枪毙了吧。尤其关注话越多，笑得越大声，越能装模做样的。</p>
-	</div>
+	<div class="px-lg-5" id="note"></div>
 	<div class="px-lg-5">
 		<ul class="list-inline mb-0" id="list"></ul>
 	</div>`

@@ -2,30 +2,6 @@ const Task = [
 	{
 		ImgUrl : "img/portfolio-3.jpg",
 		ImgSrc : "img/portfolio-3.jpg",
-		Title : "打造全球革命性安全机器人房车",
-		Content : "打造面向未来自动驾驶汽车的安全休息室，兼顾实用与舒适性，科技与品质",
-		CFC : "10000CFC",
-		Money : "2CFC",
-		Sales : "100万台/年",
-		Documents : "#!",
-		Activities : "#!",
-		Join : "#!"
-	},
-	{
-		ImgUrl : "img/portfolio-3.jpg",
-		ImgSrc : "img/portfolio-3.jpg",
-		Title : "打造全球美食研发制作机器人摆摊舱",
-		Content : "兼顾美食研发，摆摊经营，广告营销的未来城市化建设机器人。做到将原材料放入以后，自动清洗，切割，烹饪等。",
-		CFC : "100000CFC",
-		Money : "300CFC",
-		Sales : "100万台/年",
-		Documents : "#!",
-		Activities : "#!",
-		Join : "#!"
-	},
-	{
-		ImgUrl : "img/portfolio-3.jpg",
-		ImgSrc : "img/portfolio-3.jpg",
 		Title : "企业代理人",
 		Content : "能告知我国脑计划的历史发展情况的，能提供10名卫星监视我的犯罪人信息和证据的，来当我的帮手管理企业。",
 		CFC : "~CFC",
