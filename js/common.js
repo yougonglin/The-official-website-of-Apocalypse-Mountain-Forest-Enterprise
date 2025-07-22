@@ -1,11 +1,5 @@
 const Common = {
-	header : `<script type="text/javascript">
-    (function(c,l,a,r,i,t,y){
-        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
-        t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
-        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
-    })(window, document, "clarity", "script", "sia8v7d4ei");
-</script><div class="sidebar-inner d-flex flex-column">
+	header : `<div class="sidebar-inner d-flex flex-column">
 		<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=298 height=52 src="//music.163.com/outchain/player?type=0&id=13970710012&auto=1&height=32"></iframe>
     	<div class="px-4" style="padding-bottom: 1rem !important;" ><a href="index.html"><img src="img/logo3.png" style="width: 256px;height:128px;border-radius: 12px;"></a></div>
 		<div class="sidebar-menu-holder flex-grow-1">
@@ -90,13 +84,7 @@ const Common = {
             </div>
           </div>
         </div>
-      </footer><script type="text/javascript">
-    (function(c,l,a,r,i,t,y){
-        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
-        t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
-        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
-    })(window, document, "clarity", "script", "sia9u7ft6k");
-</script>`
+      </footer>`
 }
 
 //插入页脚
