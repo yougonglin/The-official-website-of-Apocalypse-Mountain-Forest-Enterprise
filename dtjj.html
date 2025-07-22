@@ -17,6 +17,8 @@
 	<script src="js/redirect.js"></script>
 	<script src="https://cdn.staticfile.net/translate.js/3.16.0/translate.js"></script>
 	<style>.active1{color: #ef5285;}</style>
+	<link href="https://vjs.zencdn.net/8.21.1/video-js.css" rel="stylesheet">
+	<script src="https://vjs.zencdn.net/8.21.1/video.min.js"></script>
   </head>
   <body>
     <div class="sidebar" id="header" style="height: 100%;"></div>
@@ -42,8 +44,19 @@
         </div>
       </div>
     </div>
-	<script src="js/movie.js"></script>
+	<script src="js/dtjj.js"></script>
 	<script src="js/common.js"></script>
+	<script>
+		var sz = setInterval(() => {
+			var MovieList = document.getElementById("movie-list")
+			if(MovieList.innerHTML != ''){
+				for (var i = 0; i < arrData.length; i++) {
+					videojs("my-video" + i);
+				}
+				clearInterval(sz);
+			}
+		},300)
+	</script>
     <!-- JavaScript files-->
     <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
     <script src="vendor/masonry-layout/masonry.pkgd.min.js"></script>

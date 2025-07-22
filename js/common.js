@@ -71,7 +71,7 @@ const Common = {
                           <div class="flex-shrink-0"><img class="rounded-circle" src="img/news-1.jpg" alt="Design is all" width="50"></div>
                           <div class="ms-3">
                             <p class="text-white mb-0">诚实宽容</p>
-                            <p class="small mb-1">这些大便还跟谁玩跟谁玩</p>
+                            <p class="small mb-1">这些人太可怕了，请不要靠近我</p>
                             <p class="text-gray text-sm">喜欢玩卑劣手段，喜欢蝇头小利，抄袭，妒忌心强，好色且敏感的这些人不要与我联系</p>
                           </div>
                         </div></a></li>

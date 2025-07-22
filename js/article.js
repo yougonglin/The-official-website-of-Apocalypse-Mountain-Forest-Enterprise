@@ -107,10 +107,6 @@ for (var i = 0; i < Cinematic_Camera.length; i++) {
 }
 
 var Note = {
-	cpdq : {
-		title : "本人已疯，精神病精神出轨可以要求分割婚后财产吗",
-		desc : "本人大脑数据被窃取10年以上，从未参与过任何脑计划以及使用过卫星量子脑机接口，脑联网中发生的任何事情一概不知，请勿相信，也不承认，所有项目的交流与交易仅在本平台，可本人实地当面认证。我和那些卖黄片，胁迫未成年卖淫，非法赌博，垃圾游戏，传销诈骗，杀猪（情绪化投资）盘，老鼠（窃取商业机密）仓，抄袭盗版，网络暴力，教唆犯罪，冒用身份，装腔作势，造谣生事，整天嬉皮笑脸我们我们，几十张烂嘴胡说八道拖人下水恶心人的没有任何关系，我只想让他们滚蛋。猪狗不如的东西还道德谴责我，整件事情就它们搅和起来的。是个人就能干的低端产业，还学我申请专利，一起报警把他们枪毙了吧。尤其关注话越多，笑得越大声，越能装模做样的。"
-	},
 	dysj : {
 		title : "小说名:高质量酒吧(hv98.com)",
 		desc : `作者被卫星量子脑机接口监视窃密，财力被耗尽，所有经验和技术都被对方盗取。高层蠢货明知读脑科技却又污蔑我精神病进行冷处理，给敌方建立了莫名其妙的保护伞机制。犯罪猖獗用作者脑数据进行犯罪，去胁迫未成年卖淫，集资诈骗，若是向恶势力低头，必将尊严，财富，名誉，肉体，精神皆失。
@@ -120,6 +116,14 @@ var Note = {
 		title : "本人已疯，精神病精神出轨可以要求分割婚后财产吗",
 		desc : "本人大脑数据被窃取10年以上，从未参与过任何脑计划以及使用过卫星量子脑机接口，脑联网中发生的任何事情一概不知，请勿相信，也不承认，所有项目的交流与交易仅在本平台，可本人实地当面认证。我和那些卖黄片，胁迫未成年卖淫，非法赌博，垃圾游戏，传销诈骗，杀猪（情绪化投资）盘，老鼠（窃取商业机密）仓，抄袭盗版，网络暴力，教唆犯罪，冒用身份，装腔作势，造谣生事，整天嬉皮笑脸我们我们，几十张烂嘴胡说八道拖人下水恶心人的没有任何关系，我只想让他们滚蛋。猪狗不如的东西还道德谴责我，整件事情就它们搅和起来的。是个人就能干的低端产业，还学我申请专利，一起报警把他们枪毙了吧。尤其关注话越多，笑得越大声，越能装模做样的。"
 	},
+	sydg : {
+		title : "招聘贤士/官方代币支付报酬/知道脑计划和脑联网",
+		desc : "企业代理人(懂法律，企业管理，善于社交，帮忙拉业务和分布任务)，代码架构师（国际大学前30排名数学系计算机博士机械工程专业）【机器人软硬件架构，虚拟现实游戏架构】，举报员（无要求，替你养老）【知道罪犯对我犯的罪，冒充我朋友家人进行诈骗，冒用身份发布言论进行恶性引流，嘲讽我发明创意又抄袭我发明，拿着我设计图加点选配说自己更优秀对我进行诋毁，有证据和线索跟我一起报扫黑办，2019年开始到处干预别人正常生活的祸害，千刀万剐五马分尸】"
+	},
+	cpdq : {
+		title : "招聘精英/官方代币支付报酬/知道脑计划和脑联网",
+		desc : "外观设计师（重点一本以上）【负责APP和产品的外观设计，虚幻引擎，各类建模和设计工具，熟悉任何一种脚本语言】+ 全栈开发程序员（211以上）【精通Kotlin和Rust和Sel4系统，负责WEB3软件的编写和机器人交互客户端和MR眼镜操作端】+ 量子脑机接口程序员（985以上）【建立人体生物量子数据，进行健康分析。利用超声波解除量子纠缠，建立稳定的超声波细胞修复装置，神经调控类应用编写。】+ 机器人工程师（985计算机研究生以上）【机器人舱室护理功能编写，清洗，按摩，美容，打造全自动机器人工厂】"
+	}
 }
 
 var introductionText = `<div class="p-4 mb-5 bg-light">
@@ -129,6 +133,7 @@ var introductionText = `<div class="p-4 mb-5 bg-light">
 		<h2 class="h1 fw-normal mb-4">我是<strong>未来架构师</strong>为发明家提供研发线路</h2>
 		<p class="text-muted mb-4">2025年机器人元年，随着人工智能，轻量化机械臂，飞行汽车，自动驾驶等技术的成熟。我作为先驱，架构了未来汽车休息室，面向末日的未来停车场与住房设计，化学设备全面智能化，静态工作场景的机器人设计方案如：菜品研发机器人，机器人医疗护理休眠室，化妆美容等基础功能</p>
 		<p class="text-muted mb-4">全球第一，随着时间的推移具有  <a target="_blank" href="/article.html?Product_Documentation/历史性的里程碑.md">里程碑</a> 的意义。产品分析师了解市场需求，发明家发明革命性产品，设计师优化产品。而我全能架构掌控未来，像这样的东西我还有一百个。</p>
+	  <p class="text-muted mb-4">想学习的直接进交流群，有项目需求就直接问我，这是我公司的业务，没必要跟着盗版货偷鸡摸狗</p>
 	  </div>
 	  <div class="col-sm-3"><img class="img-fluid img-thumbnail rounded-circle" src="img/about-profile.jpg" alt="Jason Doe"></div>
 	  <div class="col-sm-12">
@@ -156,7 +161,7 @@ var introductionText = `<div class="p-4 mb-5 bg-light">
 			<li class="list-inline-item my-2"><a target="_blank" class="btn btn-primary rounded-pill" href="https://shop.jiechurenlei.com/">
 				<svg class="svg-icon me-2 align-middle svg-icon-sm">
 				  <use xlink:href="#survey-1"> </use>
-				</svg><span class="align-middle">加盟销售</span></a>
+				</svg><span class="align-middle">商品购买</span></a>
 			</li>
 			<li class="list-inline-item my-2"><a target="_blank" class="btn btn-primary rounded-pill" href="https://github.com/yougonglin/The-official-website-of-Apocalypse-Mountain-Forest-Enterprise/milestone/1">
 				<svg class="svg-icon me-2 align-middle svg-icon-sm">
