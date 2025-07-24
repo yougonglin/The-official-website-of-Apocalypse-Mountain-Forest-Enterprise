@@ -75,7 +75,7 @@ const Common = {
                           <div class="ms-3">
                             <p class="text-white mb-0">简单高效</p>
                             <p class="small mb-1">沟通成本过高我会很难受</p>
-                            <p class="text-gray text-sm">喜欢不去纠结鸡毛蒜皮的事，对重要的事情能快速完成的人</p>
+                            <p class="text-gray text-sm">喜欢不去纠结鸡毛蒜皮的事，对重要的事情能快速完成的人，坏在正确的地方</p>
                           </div>
                         </div></a></li>
                   </ul>
